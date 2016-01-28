@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testSuite">
+<test name="testname">
+  
+  <classes>
+ <class name="com.proware.tests.PlaceSelectionTest">
+ </class>
+ </classes>
+ 
+</test>
+</suite>

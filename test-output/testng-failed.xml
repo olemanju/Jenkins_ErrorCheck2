@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testSuite]">
+  <test name="testname(failed)">
+    <classes>
+      <class name="com.proware.tests.PlaceSelectionTest">
+        <methods>
+          <include name="preSetup"/>
+          <include name="SourceSel"/>
+          <include name="tearup"/>
+        </methods>
+      </class> <!-- com.proware.tests.PlaceSelectionTest -->
+    </classes>
+  </test> <!-- testname(failed) -->
+</suite> <!-- Failed suite [testSuite] -->
