@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">2 suites, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-testSuite">
-                    <span>D:\01\ASelJenError1\Jenkins_ErrorCheck1\src\test\resource\TestSuite\Executetestng.xml</span>
+                    <span>D:\01\ASelJenError2\Jenkins_ErrorCheck2\src\test\resource\TestSuite\Executetestng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -129,6 +129,8 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
+        <div panel-name="suite-Allfiles" class="panel Allfiles">
+        </div> <!-- panel Allfiles -->
         <div panel-name="suite-testSuite" class="panel testSuite">
           <div class="suite-testSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
@@ -144,7 +146,7 @@
                   <div class="stack-trace">java.lang.AssertionError: Titles do not match... expected [Book Ticket - Search Buses] but found [redBus : Online Bus Ticket Booking, Book Volvo AC Bus Tickets, Reservation]
 	at com.proware.common.BasePageObject.verifyTitle(BasePageObject.java:62)
 	at com.proware.tests.PlaceSelectionTest.SourceSel(PlaceSelectionTest.java:23)
-... Removed 28 stack frames
+... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -166,9 +168,25 @@
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-testSuite-class-passed -->
         </div> <!-- panel testSuite -->
+        <div panel-name="test-xml-Allfiles" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\01\ASelJenError2\Jenkins_ErrorCheck2\src\test\resource\TestSuite\ExecuteAlltestng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Allfiles&quot; parallel=&quot;none&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;Executetestng.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- Allfiles --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
         <div panel-name="test-xml-testSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\01\ASelJenError1\Jenkins_ErrorCheck1\src\test\resource\TestSuite\Executetestng.xml</span>
+            <span class="header-content">D:\01\ASelJenError2\Jenkins_ErrorCheck2\src\test\resource\TestSuite\Executetestng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -184,6 +202,15 @@
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
+        <div panel-name="testlist-Allfiles" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Allfiles</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
         <div panel-name="testlist-testSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Tests for testSuite</span>
@@ -196,11 +223,42 @@
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
+        <div panel-name="group-Allfiles" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Allfiles</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
         <div panel-name="group-testSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Groups for testSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Allfiles" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Allfiles</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Allfiles');
+function tableData_Allfiles() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['Allfiles']= { tableData: data, tableDiv: 'times-div-Allfiles'}
+return data;
+}
+              </script>
+              <div id="times-div-Allfiles">
+              </div> <!-- times-div-Allfiles -->
+            </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-testSuite" class="panel">
@@ -221,19 +279,26 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'SourceSel')
 data.setCell(0, 2, 'com.proware.tests.PlaceSelectionTest')
-data.setCell(0, 3, 5006);
+data.setCell(0, 3, 4943);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'VerifyOffer')
 data.setCell(1, 2, 'com.proware.tests.PlaceSelectionTest')
-data.setCell(1, 3, 1);
+data.setCell(1, 3, 3);
 window.suiteTableData['testSuite']= { tableData: data, tableDiv: 'times-div-testSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-testSuite">
               </div> <!-- times-div-testSuite -->
             </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Allfiles" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Allfiles</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="reporter-testSuite" class="panel">
@@ -243,11 +308,53 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
+        <div panel-name="ignored-methods-Allfiles" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
         <div panel-name="ignored-methods-testSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Allfiles" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.proware.tests.PlaceSelectionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SourceSel</span>
+                <span class="method-start">30297 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearup</span>
+                <span class="method-start">35291 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">43497 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyOffer</span>
+                <span class="method-start">63102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearup</span>
+                <span class="method-start">63106 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-testSuite" class="panel">
@@ -265,23 +372,23 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">SourceSel</span>
-                <span class="method-start">17943 ms</span>
+                <span class="method-start">30297 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearup</span>
-                <span class="method-start">22957 ms</span>
+                <span class="method-start">35291 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">preSetup</span>
-                <span class="method-start">29236 ms</span>
+                <span class="method-start">43497 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyOffer</span>
-                <span class="method-start">44613 ms</span>
+                <span class="method-start">63102 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearup</span>
-                <span class="method-start">44614 ms</span>
+                <span class="method-start">63106 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

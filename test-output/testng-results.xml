@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="testSuite" duration-ms="50441" started-at="2016-01-28T11:16:04Z" finished-at="2016-01-28T11:16:54Z">
+  <suite name="Allfiles" duration-ms="0" started-at="2016-01-29T06:20:16Z" finished-at="2016-01-29T06:20:16Z">
     <groups>
     </groups>
-    <test name="testname" duration-ms="50441" started-at="2016-01-28T11:16:04Z" finished-at="2016-01-28T11:16:54Z">
+  </suite> <!-- Allfiles -->
+  <suite name="testSuite" duration-ms="69066" started-at="2016-01-29T06:19:06Z" finished-at="2016-01-29T06:20:15Z">
+    <groups>
+    </groups>
+    <test name="testname" duration-ms="69066" started-at="2016-01-29T06:19:06Z" finished-at="2016-01-29T06:20:15Z">
       <class name="com.proware.tests.PlaceSelectionTest">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.proware.tests.PlaceSelectionTest@1134affc]" name="preSetup" is-config="true" duration-ms="17943" started-at="2016-01-28T16:46:04Z" finished-at="2016-01-28T16:46:22Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.proware.tests.PlaceSelectionTest@1134affc]" name="preSetup" is-config="true" duration-ms="30297" started-at="2016-01-29T11:49:06Z" finished-at="2016-01-29T11:49:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="FAIL" signature="SourceSel()[pri:0, instance:com.proware.tests.PlaceSelectionTest@1134affc]" name="SourceSel" duration-ms="5006" started-at="2016-01-28T16:46:22Z" finished-at="2016-01-28T16:46:27Z">
+        <test-method status="FAIL" signature="SourceSel()[pri:0, instance:com.proware.tests.PlaceSelectionTest@1134affc]" name="SourceSel" duration-ms="4943" started-at="2016-01-29T11:49:36Z" finished-at="2016-01-29T11:49:41Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Titles do not match... expected [Book Ticket - Search Buses] but found [redBus : Online Bus Ticket Booking, Book Volvo AC Bus Tickets, Reservation]]]>
@@ -43,6 +47,7 @@
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1195)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
 	at org.testng.TestNG.run(TestNG.java:1032)
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
@@ -54,19 +59,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SourceSel -->
-        <test-method status="PASS" signature="tearup()[pri:0, instance:com.proware.tests.PlaceSelectionTest@1134affc]" name="tearup" is-config="true" duration-ms="6278" started-at="2016-01-28T16:46:27Z" finished-at="2016-01-28T16:46:33Z">
+        <test-method status="PASS" signature="tearup()[pri:0, instance:com.proware.tests.PlaceSelectionTest@1134affc]" name="tearup" is-config="true" duration-ms="8204" started-at="2016-01-29T11:49:41Z" finished-at="2016-01-29T11:49:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearup -->
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.proware.tests.PlaceSelectionTest@1134affc]" name="preSetup" is-config="true" duration-ms="15377" started-at="2016-01-28T16:46:33Z" finished-at="2016-01-28T16:46:48Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.proware.tests.PlaceSelectionTest@1134affc]" name="preSetup" is-config="true" duration-ms="19605" started-at="2016-01-29T11:49:50Z" finished-at="2016-01-29T11:50:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="VerifyOffer()[pri:0, instance:com.proware.tests.PlaceSelectionTest@1134affc]" name="VerifyOffer" duration-ms="1" started-at="2016-01-28T16:46:48Z" finished-at="2016-01-28T16:46:48Z">
+        <test-method status="PASS" signature="VerifyOffer()[pri:0, instance:com.proware.tests.PlaceSelectionTest@1134affc]" name="VerifyOffer" duration-ms="3" started-at="2016-01-29T11:50:09Z" finished-at="2016-01-29T11:50:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyOffer -->
-        <test-method status="PASS" signature="tearup()[pri:0, instance:com.proware.tests.PlaceSelectionTest@1134affc]" name="tearup" is-config="true" duration-ms="5815" started-at="2016-01-28T16:46:48Z" finished-at="2016-01-28T16:46:54Z">
+        <test-method status="PASS" signature="tearup()[pri:0, instance:com.proware.tests.PlaceSelectionTest@1134affc]" name="tearup" is-config="true" duration-ms="5951" started-at="2016-01-29T11:50:09Z" finished-at="2016-01-29T11:50:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearup -->
